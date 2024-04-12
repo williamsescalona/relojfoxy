@@ -1,0 +1,12 @@
+import java.time.LocalTime;
+import java.time.ZoneId;
+
+public class HoraPeru {
+    public static void main(String[] args) {
+        // Obtener la hora actual en Perú
+        LocalTime horaPeru = LocalTime.now(ZoneId.of("America/Lima"));
+        
+        // Imprimir la hora en formato de 24 horas
+        System.out.println("La hora actual en Perú (formato de 24 horas) es: " + horaPeru);
+    }
+}
